@@ -1,0 +1,55 @@
+
+.redressed {
+    font-family: 'redressed', cursive;
+}
+
+.merriwather {
+       font-family: 'merriweather', serif;  
+    }
+
+.cc-navbar {
+    background-color: rgba(0, 0 ,0, 0.55);
+    font-family: merriweather;
+    box-shadow: 1px 1px 3px rgba(255, 255 ,255, 0.54);
+    z-index: 99;
+
+}
+
+.cc-navbar .nav-link {
+   border-bottom: 1px solid transparent;
+   transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5) ),url('../css/img/verre\ et\ table.jpeg') center center fixed no-repeat;
+    height: 800px;
+    background-size: cover;
+}
+    .banner .banner-desc {
+        font-size: 48px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+
+    .cc-menu {
+        background: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5) ),url('../css/img/R.jpeg') center center fixed no-repeat;
+        height: 1200px;
+        background-size: cover;
+    }
+
+.btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active {
+   color: #fff; 
+   background-color: var(--bs-teal);
+}
